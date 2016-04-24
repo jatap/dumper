@@ -1,0 +1,7 @@
+{
+  "extends": "xo-space",
+  "parser": "babel-eslint",
+  "rules": {
+    "strict": 0
+  }
+}
