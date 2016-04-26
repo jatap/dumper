@@ -1,10 +1,11 @@
 {
   "name": "dumper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Node dumper module",
   "scripts": {
     "test": "node_modules/.bin/mocha --compilers js:babel-core/register --reporter spec",
     "cover": "node_modules/.bin/nyc --reporter=lcov --report-dir ./test/coverage npm test",
+    "coveralls": "node_modules/.bin/nyc --report-dir ./test/coverage npm test && ./node_modules/.bin/nyc report --reporter=text-lcov | node_modules/.bin/coveralls",
     "compile": "node_modules/.bin/babel lib/ -d src/",
     "doc": "./node_modules/.bin/jsdoc -c .jsdoc.conf.json -R README.md -p",
     "prepublish": "npm run compile"
@@ -33,10 +34,12 @@
     "babel-preset-es2015": "^6.6.0",
     "babel-register": "^6.7.2",
     "chai": "^3.5.0",
+    "coveralls": "^2.11.9",
     "eslint": "^2.8.0",
     "eslint-plugin-babel": "^3.2.0",
     "jsdoc": "^3.4.0",
     "mocha": "^2.4.5",
+    "mocha-lcov-reporter": "^1.2.0",
     "nyc": "^6.4.0",
     "sinon": "^1.17.3"
   },
