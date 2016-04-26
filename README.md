@@ -12,9 +12,22 @@ $ npm install --save-dev dumper
 
 ## Usage
 
+##### ES5
+
 ```js
 var dumper = require('dumper');
+
 var foo = { bar: 'baz' };
+
+dumper(foo);
+```
+
+##### ES6
+
+```js
+import {dumper} from 'dumper';
+
+let foo = { bar: 'baz' };
 
 dumper(foo);
 ```
