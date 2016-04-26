@@ -155,7 +155,13 @@ function debug(obj) {
   return [header, content];
 }
 
-/** Var dump requested argument. */
+/**
+ * @param {*} ob - Function or object to show.
+ * @version 0.0.1
+ * @since 0.0.1
+ * @description Create a nice dump for a requested param.
+ * @summary Var dump requested argument.
+ */
 function dumper(obj) {
   console.log(separator("DEBUG - Init", '*', 'green'));
 
