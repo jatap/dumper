@@ -1,0 +1,30 @@
+{
+  "tags": {
+    "allowUnknownTags": false
+  },
+  "source": {
+    "include"        : "lib",
+    "includePattern" : ".js$"
+  },
+  "plugins": [
+    "plugins/markdown"
+  ],
+  "templates": {
+    "cleverLinks"           : false,
+    "monospaceLinks"        : false,
+    "outputSourceFiles"     : true,
+    "outputSourcePath"      : true,
+    "systemName"            : "Dumper",
+    "footer"                : "",
+    "copyright"             : "MIT © Julio Antúnez Tarín.",
+    "linenums"              : true,
+    "highlightTutorialCode" : true
+  },
+  "opts": {
+    "destination": "./docs",
+    "encoding": "utf8",
+    "template": "./node_modules/docdash",
+    "recurse": true,
+    "verbose": true
+  }
+}
