@@ -1,6 +1,6 @@
 {
   "name": "dumper",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Node dumper module",
   "main": "src/dumper.js",
   "scripts": {
