@@ -38,7 +38,7 @@ MIT © [Julio Antúnez Tarín](https://github.com/jatap/dumper/blob/master/LICEN
 
 [npm-image]: https://badge.fury.io/js/dumper.svg
 [npm-url]: https://npmjs.org/package/dumper
-[travis-image]: https://travis-ci.org/jatap/dumper.svg?branch=master
+[travis-image]: https://travis-ci.org/jatap/dumper.svg?branch=develop
 [travis-url]: https://travis-ci.org/jatap/dumper
 [daviddm-image]: https://david-dm.org/jatap/dumper.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/jatap/dumper
