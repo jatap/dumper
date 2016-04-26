@@ -1,6 +1,6 @@
 {
   "name": "dumper",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Node dumper module",
   "scripts": {
     "test": "node_modules/.bin/mocha --compilers js:babel-core/register --reporter spec",
