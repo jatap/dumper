@@ -1,6 +1,6 @@
 # dumper
 
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status][coveralls-image]][coveralls-url]
 
 > Dumper node module
 
@@ -42,5 +42,5 @@ MIT © [Julio Antúnez Tarín](https://github.com/jatap/dumper/blob/master/LICEN
 [travis-url]: https://travis-ci.org/jatap/dumper
 [daviddm-image]: https://david-dm.org/jatap/dumper.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/jatap/dumper
-[coveralls-image]: https://coveralls.io/repos/jatap/dumper/badge.svg
-[coveralls-url]: https://coveralls.io/r/jatap/dumper
+[coveralls-image]: https://coveralls.io/repos/github/jatap/dumper/badge.svg?branch=develop
+[coveralls-url]: https://coveralls.io/github/jatap/dumper?branch=develop
