@@ -29,7 +29,7 @@ import {debug} from 'dumper';
 
 let foo = { bar: 'baz' };
 
-debug.dumper(foo);
+dumper(foo);
 ```
 ## License
 
