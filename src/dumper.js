@@ -38,7 +38,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
  * @param {string} char - Char to repeat.
  * @param {string} color - Color.
  * @returns {String} Separator line.
- * @version 1.0.10
+ * @version 1.0.12
  * @since 0.0.1
  * @see debug
  * @description Add a separator line.
@@ -80,7 +80,7 @@ function separator(header, marker, color) {
  * @function debugFunction
  * @param {Function} ob - Function to show.
  * @returns {String} Functiom info.
- * @version 1.0.10
+ * @version 1.0.12
  * @since 0.0.1
  * @see debug
  * @description Show function information.
@@ -94,7 +94,7 @@ function debugFunction(obj) {
  * @function debugInspect
  * @param {*} ob - Object to show.
  * @returns {String} Object info.
- * @version 1.0.10
+ * @version 1.0.12
  * @since 0.0.1
  * @see debug
  * @description Show object information.
@@ -108,7 +108,7 @@ function debugInspect(obj) {
  * @function debug
  * @param {*} ob - Function or object to show.
  * @returns {Array} Function/Object info.
- * @version 1.0.10
+ * @version 1.0.12
  * @since 0.0.1
  * @see debugFunction
  * @see debugInspect
@@ -157,7 +157,7 @@ function debug(obj) {
 
 /**
  * @param {*} ob - Function or object to show.
- * @version 1.0.10
+ * @version 1.0.12
  * @since 0.0.1
  * @description Create a nice dump for a requested param.
  * @summary Var dump requested argument.
