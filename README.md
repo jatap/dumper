@@ -15,11 +15,11 @@ $ npm install --save-dev dumper
 ##### ES5
 
 ```js
-var debug = require('dumper');
+var dumper = require('dumper').dumper;
 
 var foo = { bar: 'baz' };
 
-debug.dumper(foo);
+dumper(foo);
 ```
 
 ##### ES6
