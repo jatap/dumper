@@ -25,7 +25,7 @@ debug.dumper(foo);
 ##### ES6
 
 ```js
-import {debug} from 'dumper';
+import {dumper} from 'dumper';
 
 let foo = { bar: 'baz' };
 
